@@ -6,16 +6,18 @@
     <title>درب</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 
 <body>
     <section class="header">
 
         <nav>
-
-            <a href="index.html"><img src="images/darbb.png"></a>
-            <div class="nav-links">
-
+             <div class="img">
+                <a href="index.html"><img src="images/darbb.png"></a>
+             </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="add.html">اضافة مكتب</a></li>
                     <li><a href="login.html">تسجيل دخول</a></li>
@@ -23,6 +25,7 @@
                 </ul>
 
             </div>
+            <i class="fa fa-bars" onclick="openMenu()"></i>
 
 
         </nav>
@@ -75,7 +78,16 @@
                         </div>
 
     </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function openMenu(){
+        navLinks.style.right ="0";
+    }
 
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
 </body>
 
 </html>
