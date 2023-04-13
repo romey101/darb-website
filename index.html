@@ -1,83 +1,296 @@
-<!DOCTYPE html>
-<html>
+* {
+    margin: 0;
+    padding: 0;
+}
 
-<head>
-    <meta name="viewport" content="with=device-width, initial- scale=1.0">
-    <title>درب</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/imamu.png.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-<body>
-    <section class="header">
+.box {
+    width: 340px;
+    height: 380px;
+    position: relative;
+    display: block;
+    top: 45%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffa1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+    padding: 20px;
 
-        <nav>
+}
+.box1 {
+    width: 340px;
+    height: 380px;
+    position: relative;
+    display: block;
+    top: 45%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffa1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+    padding: 20px;
 
-            <a href="index.html"><img src="images/darbb.png"></a>
-            <div class="nav-links">
+}
 
-                <ul>
-                    <li><a href="add.html">اضافة مكتب</a></li>
-                    <li><a href="login.html">تسجيل دخول</a></li>
-                    <li><a href="index.html">الصفحة الرئيسية</a></li>
-                </ul>
+.search input[type=text] {
+    width: 300px;
+    height: 25px;
+   
+    border: none;
+    text-align: right;
 
-            </div>
+}
 
-
-        </nav>
-        <div class="box">
-            <h1>البحث</h1>
-            <div class="search">
-                <form action="#">
-                    <input type="text" placeholder="ادخل اسم او رقم المكتب" name="search">
-                    <div class="mydiv">
-                        <button>ابحث</button>
-                    </div>
-                </form>
-            </div>
-
-
-
-            <div class="nav-sug">
-
-                <ul>
-                    <li><a href="">لجنة الاعذار</a></li>
-                </ul>
-
-
-
-
-                <div class="nav-sug">
-
-                    <ul>
-                        <li><a href="">وحدة التدريب</a></li>
-                    </ul>
+.search {
+    text-align: center;
+    margin-right: 5px;
 
 
+}
 
-                    <div class="nav-sug">
+.mydiv button {
+    background-color: #264B82;
+    color: #f2f2f2;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
 
-                        <ul>
-                            <li><a href="">الارشاد الاكاديمي</a></li>
-                        </ul>
+    margin-top: 30px;
+
+}
+
+.mydiv {
+    text-align: center;
+ 
+}
 
 
+::placeholder {
+    color: #000000;
+    opacity: 0.7;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+}
 
-                        <div class="nav-sug">
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
 
-                            <ul>
-                                <li><a href="">شؤوون الطالبات</a></li>
-                            </ul>
+nav img {
+    width: 50px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+
+}
+
+.nav-links ul li a {
+    color: #264B82;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #264B82;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+nav {
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px)/2);
+}
+.box h1{
+    text-align: center;
+    margin: 10px;
+    color: #1c375f;
+}
+.nav-sug {
+    flex: 1;
+    text-align: center;
+    
+
+}
+
+.nav-sug ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 5%;
+
+}
+
+.nav-sug ul li a {
+    color: #264B82;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-sug ul li::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #264B82;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-sug ul li:hover::after {
+    width: 100%;
+}
 
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-                        </div>
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #777;
+}
 
-                        <script src="search.js"></script>
+.login-form{
+    width: 400px;
+    background-color: #ffffffa1;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 10%;
 
-    </section>
+    
+}
 
-</body>
+.title{
+    color: #1c375f;
+    margin-bottom: 20px;
+   text-align: center;
+   
+}
+.input-group{
+    color: #1c375f;
+    margin: 20px 0;
+}
 
-</html>
+.input-group label{
+    display:inline-block;
+    margin-bottom: 10px;
+    margin-left: 290px;
+}
+
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+    
+   
+}
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+    text-align: right;
+    padding: 5px;
+   
+    
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #264B82;
+    color: #f2f2f2;
+   
+    cursor: pointer;
+ 
+}
+.add input[type=text] {
+    width: 300px;
+    height: 25px;
+   margin-bottom: 5%;
+    border: none;
+    text-align: right;
+
+}
+
+.add {
+    text-align: center;
+    margin-right: 5px;
+  
+
+
+}
+
+.oadd button {
+    background-color: #264B82;
+    color: #f2f2f2;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+
+    margin-top: 30px;
+
+}
+
+.oadd {
+    text-align: center;
+ 
+}
+
+@media(max-width: 700px){
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links ul li{
+        position: absolute;
+        background: #ffffff;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: right;
+        z-index: 2;
+
+    }
+
+}
