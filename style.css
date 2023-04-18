@@ -5,9 +5,9 @@
 }
 
 .header {
-    min-height: 50vh;
-    width: 70%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.png.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
