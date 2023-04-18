@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial- scale=1.0">
+    <title>درب</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="img">
+            <a href="index.html"><img src="images/darbb.jpeg"></a>
+        </div>
+        <div class="nav-links" id="navLinks">
+
+            <ul>
+                <div class="dropdown">
+                    <button class="dropbtn">المزيد</button>
+                    <div class="dropdown-content">
+                        <a href="#">من نحن؟</a>
+                        <a href="add.html">اضافة مكتب</a>
+                        <a href="#">الخرائط التوضيحية</a>
+                    </div>
+                </div>
+                <li><a href="login.html">تسجيل دخول</a></li>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+    <section class="header">
+        <div class="box">
+            <h1>إضافة مكتب</h1>
+            <div class="add">
+                <input type="text" placeholder="الاسم" id="Oname">
+                <input type="text" placeholder="الدور" id="Ofloor">
+                <input type="text" placeholder="الدوار" id="A">
+                <input type="text" placeholder="رقم المكتب" id="Onumber">
+                <input type="text" placeholder="القسم" id="Omajor">
+                <div class="oadd">
+                    <p id="error"></p>
+                    <button id="addButton" onclick="addOffice()">إضافة مكتب</button>
+                    <button id="cancelButton" onclick="cancel()">إلغاء</button>
+
+                </div>
+
+
+                <script src="add.js"></script>
+    </section>
+
+</body>
+
+</html>
