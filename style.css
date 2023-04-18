@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.png.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.jpeg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -16,7 +16,7 @@
 .header1 {
     min-height: 60vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.png.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.jpeg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -52,7 +52,7 @@ nav img {
 }
 
 .nav-links ul li a {
-    color: #264B82;
+    color: #8d6669;
     text-decoration: none;
     font-size: 13px;
 }
@@ -61,7 +61,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #264B82;
+    background: #8d6669;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -110,8 +110,8 @@ nav {
 }
 
 .btn:hover {
-    border: 1px solid #1c375f;
-    background: #1c375f;
+    border: 1px solid#8d6669;
+    background: #8d6669;
     transition: 1s;
 }
 
@@ -139,7 +139,7 @@ nav {
 h1 {
     font-size: 20px;
     font-weight: 600;
-    color: #676666;
+    color: #8d666997;
 }
 
 .row {
@@ -150,7 +150,7 @@ h1 {
 
 .course-col {
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #8d66698c;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -170,7 +170,7 @@ h1 {
 }
 
 .course-col ul li a {
-    color: #264B82;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
@@ -179,7 +179,7 @@ h1 {
     content: '';
     width: 0%;
     height: 2px;
-    background: #264B82;
+    background: #ffffff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -197,15 +197,7 @@ h1 {
     .btn {
         flex-direction: column;
     }
-    .header1 {
-        min-height: 60vh;
-        width: 100%;
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url(images/imamu.png.jpg);
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        overflow: hidden;
-    }
+
     
 }
 
@@ -229,7 +221,7 @@ h1 {
 
 
 .title h2{
-    color: #1c375f;
+    color: #8d6669;
     margin-bottom: 30px;
     text-align: center;
     margin-top: 10px;
@@ -238,7 +230,7 @@ h1 {
 }
 
 .input-group {
-    color: #1c375f;
+    color:#8d6669;
     top: 50%;
     left: 50%;
    
@@ -287,7 +279,7 @@ h1 {
 }
 
 .reset ul li a {
-    color: #264B82;
+    color: #8d6669;
     text-decoration: none;
     font-size: 13px;
 }
@@ -296,7 +288,7 @@ h1 {
     content: '';
     width: 0%;
     height: 2px;
-    background: #264B82;
+    background:#8d6669;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -336,8 +328,8 @@ h1 {
 }
 
 #submit:hover {
-    border: 1px solid #1c375f;
-    background: #1c375f;
+    border: 1px solid #8d6669;
+    background: #8d6669;
     transition: 1s;
    
 }
@@ -368,7 +360,7 @@ h1 {
 
 .box h1 {
     font-size: 16px;
-    color: #1c375f;
+    color: #8d6669;
     margin-bottom: 15px;
 }
 
@@ -400,8 +392,8 @@ h1 {
 }
 
 .oadd button:hover {
-    border: 1px solid #1c375f;
-    background: #1c375f;
+    border: 1px solid #8d6669;
+    background: #8d6669;
     transition: 1s;
 }
 
@@ -473,15 +465,15 @@ h1 {
 }
 
 .profile button:hover {
-    border: 1px solid #1c375f;
-    background: #1c375f;
+    border: 1px solid #8d6669;
+    background: #8d6669;
     transition: 1s;
 }
 
 
 .profile label {
 
-    color: #1c375f;
+    color: #8d6669;
 
     display: block;
 
@@ -547,39 +539,39 @@ h1 {
 
 .box1 h1 {
     font-size: 16px;
-    color: #1c375f;
+    color: #8d6669;
     margin-bottom: 15px;
 }
 .p5{
     margin-bottom: 15px;
     margin-top: 15px;
-    color: #1c375f;
+    color: #8d6669;
    
 }
 .p4{
     margin-bottom: 15px;
     margin-top: 15px;
-    color: #1c375f;
+    color: #8d6669;
    
 }
 
 .p3{
     margin-bottom: 15px;
     margin-top: 15px;
-    color: #1c375f;
+    color: #8d6669;
    
 }
 
 .p2{
     margin-bottom: 15px;
     margin-top: 15px;
-    color: #1c375f;
+    color:#8d6669;
    
 }
 .p1{
     margin-bottom: 15px;
     margin-top: 15px;
-    color: #1c375f;
+    color:#8d6669;
 }
 
 
