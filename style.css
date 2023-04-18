@@ -379,7 +379,7 @@ nav {
 
 .profile button {
 
-
+    
     background: transparent;
     color: #f2f2f2;
     padding: 5px 10px;
@@ -420,13 +420,15 @@ nav {
 
     color: #fd0000e0;
 
+    top: 80%;
+
     direction: rtl;
 
     display: none;
 
     position: absolute;
 
-    font-size: 15px;
+    font-size: 12px;
 
     right: 0;
 
