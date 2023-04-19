@@ -4,13 +4,13 @@ submit.addEventListener('click', (event) =>{
 event.preventDefault();
 
 if(password.value.trim() ==''){
-    error(password, 'الرجاء ادخال رمز الدخول ')
+    error(password, 'الرجاء ادخال رمز الدخول* ')
 }
 else if (password.value.trim() == '112233'){
     success(password);
-    //alert('تم تسجيل الدخول بنجاح')
+    alert('تم تسجيل الدخول بنجاح')
 } else {
-    error(password, 'رمز الدخول خاطئ ')
+    error(password, 'رمز الدخول خاطئ* ')
 }
 });
 
