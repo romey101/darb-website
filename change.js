@@ -10,7 +10,7 @@ function change() {
     
       if (oldPass == "" || newPass == "" || confirmPass == "") {
      
-        error.textContent = "الرجاء التحقق من تعبئة جميع الحقول";
+        error.textContent = "*الرجاء التحقق من تعبئة جميع الحقول";
      
         error.style.display = "block";
      
